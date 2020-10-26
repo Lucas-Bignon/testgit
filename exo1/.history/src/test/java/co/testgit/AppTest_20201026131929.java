@@ -20,10 +20,6 @@ class AppTest {
     void helloBoyAndGirl(){
         assertEquals("Hello World", App.helloBoyAndGirl(null), "null");
     }
-    @Test
-    void helloAurelie() {
-        assertEquals("Hello Aurélie", App.helloAurelie(""));
-    }
 
     @Test
     void helloLucas(){
@@ -32,19 +28,5 @@ class AppTest {
     @Test
     void helloRomain(){
         assertEquals("Hello Romain", App.helloRomain("")); 
-}
-
-    @Test
-    void helloRomain(){
-        assertEquals("Hello Romain", App.helloRomain(""));
- }
-
-        @Test
-        void helloAmin(){
-
-            assertEquals("Hello Lucas", App.helloAmin(""));
-
-            assertEquals("Hello Amin", App.helloAmin(""));
-
     }
 }
