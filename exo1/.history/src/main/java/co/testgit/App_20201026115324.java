@@ -10,23 +10,10 @@ public final class App {
     public static String helloBoyAndGirl(String name){
         return "Hello World";
     }
-    public static String helloLucas(String name){
-        return "Hello Lucas";
-    }
-
 
     public static String helloRomain(String name){
         
         String helloPrenom = "Hello Romain"; 
-        if(name == ""){
-            name = helloPrenom;  
-        }
-        return name; 
-    }
-
-    public static String helloAmin(String name){
-        
-        String helloPrenom = "Hello Amin"; 
         if(name == ""){
             name = helloPrenom;  
         }
@@ -39,15 +26,5 @@ public final class App {
      */
     public static void main(String[] args) {
         System.out.println("Hello World!");
-    }
-
-    public static String helloTrystan(String name) {
-
-        String trystan = "Hello Trystan";
-
-        if (name == "") {
-            name = trystan;
-        }
-        return trystan;
     }
 }
