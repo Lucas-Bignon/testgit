@@ -44,6 +44,16 @@ public final class App {
         
     }
 
+    public static String helloTrystan(String name) {
+
+        String trystan = "Hello Trystan";
+
+        if (name == "") {
+            name = trystan;
+        }
+        return name;
+    }
+
     /**
      * Says hello to the world.
      * @param args The arguments of the program.
@@ -57,14 +67,5 @@ public final class App {
     
   
 
-    public static String helloTrystan(String name) {
-
-        String trystan = "Hello Trystan";
-
-        if (name == "") {
-            name = trystan;
-        }
-        return name;
-    }
 
 }
