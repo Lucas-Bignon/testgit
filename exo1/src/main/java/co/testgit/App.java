@@ -11,6 +11,17 @@ public final class App {
         return "Hello World";
     }
 
+    
+    public static String helloAurelie(String name){
+        String aurelie = "Hello Aurélie";
+        if (name == "") {
+          name = aurelie;
+        }
+        return aurelie;
+        
+        
+    }
+
     /**
      * Says hello to the world.
      * @param args The arguments of the program.
@@ -18,4 +29,8 @@ public final class App {
     public static void main(String[] args) {
         System.out.println("Hello World!");
     }
+
+    
+    
+  
 }
