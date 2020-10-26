@@ -10,6 +10,10 @@ public final class App {
     public static String helloBoyAndGirl(String name){
         return "Hello World";
     }
+    public static String helloLucas(String name){
+        return "Hello Lucas";
+    }
+
 
     /**
      * Says hello to the world.
