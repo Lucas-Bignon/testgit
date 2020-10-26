@@ -26,6 +26,10 @@ class AppTest {
     }
 
     @Test
+
+    void helloTrystan() {
+        assertEquals("Hello Trystan", App.helloTrystan(""));
+
     void helloLucas(){
         assertEquals("Hello Lucas", App.helloLucas(""));
     }

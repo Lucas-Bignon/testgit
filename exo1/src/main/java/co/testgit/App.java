@@ -52,7 +52,19 @@ public final class App {
         System.out.println("Hello World!");
     }
 
+
     
     
   
+
+    public static String helloTrystan(String name) {
+
+        String trystan = "Hello Trystan";
+
+        if (name == "") {
+            name = trystan;
+        }
+        return trystan;
+    }
+
 }
