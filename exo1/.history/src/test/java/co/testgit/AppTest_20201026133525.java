@@ -23,6 +23,7 @@ class AppTest {
 
     @Test
 
+
     void helloTrystan() {
         assertEquals("Hello Trystan", App.helloTrystan(""));
     }
