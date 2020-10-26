@@ -5,6 +5,10 @@ package co.testgit;
  */
 public final class App {
     private App() {
+		throw new IllegalStateException("Test class");
+	}
+    public static String helloBoyAndGirl(String name){
+        return "Hello World";
     }
 
     /**

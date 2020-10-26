@@ -15,4 +15,8 @@ class AppTest {
     void testApp() {
         assertEquals(1, 1);
     }
+    @Test
+    void helloBoyAndGirl(){
+        assertEquals("Hello World", App.helloBoyAndGirl(null), "null");
+    }
 }
