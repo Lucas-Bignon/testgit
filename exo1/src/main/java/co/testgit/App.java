@@ -24,6 +24,15 @@ public final class App {
         return name; 
     }
 
+    public static String helloAmin(String name){
+        
+        String helloPrenom = "Hello Amin"; 
+        if(name == ""){
+            name = helloPrenom;  
+        }
+        return name; 
+    }
+
     /**
      * Says hello to the world.
      * @param args The arguments of the program.
